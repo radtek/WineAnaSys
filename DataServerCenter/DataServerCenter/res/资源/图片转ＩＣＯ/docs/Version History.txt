@@ -1,0 +1,81 @@
+Imagicon - Version History
+
+-----------------
+Version 4.4
+-----------------
+
+Fixed Anti-Virus 'false positive' detection issue
+
+-----------------
+Version 4.0
+-----------------
+
+Fixed Windows 7 Program Compatibility Assistant issue
+
+-----------------
+Version 3.8
+-----------------
+
+Changed Imagicon window image panel aspect ratio to 4:3
+
+-----------------
+Version 3.4
+-----------------
+
+Fixed Windows 64-bit OS 'Wrong Thread' issue
+
+-----------------
+Version 3.0
+-----------------
+
+Added Convert To Black & White option
+
+Improved Windows 7 OS support
+Improved Image Transform status display
+Improved conversion process status display
+
+-----------------
+Version 2.8
+-----------------
+
+Added data module error detection
+
+-----------------
+Version 2.4
+-----------------
+
+Added Windows Vista OS support
+
+-----------------
+Version 2.0
+-----------------
+
+Improved memory management
+
+Fixed 'Application Not Responding' issue
+
+-----------------
+Version 1.8
+-----------------
+
+Added Append Saved Filename option
+
+-----------------
+Version 1.4
+-----------------
+
+Added Image Transform options
+Added Customize Imagicon options
+Added Zero Encoded Alpha icon setting
+
+Fixed Save Directory selected folder issue
+Fixed icon alpha transparency encoding issue
+
+-----------------
+Version 1.0
+-----------------
+
+Initial release
+
+
+Copyright © 2010 - Devious Codeworks

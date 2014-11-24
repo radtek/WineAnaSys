@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\MSChartTest.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MSChartTest.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MSChartTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MSChartTestDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mschart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcaxis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcaxisgrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcaxisscale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcaxistitle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcbackdrop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcbrush.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vccategoryscale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vccolor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vccoor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcdatagrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcdatapoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcdatapointlabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcdatapoints.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcfill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcfont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcfootnote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcframe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcintersection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclabels.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclcoor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclegend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclightsource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclightsources.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclocation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcmarker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcpen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcplot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcplotbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcrect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcseriescollection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcseriesmarker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcseriesposition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcshadow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcstatline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vctextlayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vctick.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vctitle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcvaluescale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcview3d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcwall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcweighting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MSChartTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MSChartTestDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mschart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcaxis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcaxisgrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcaxisscale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcaxistitle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcbackdrop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcbrush.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vccategoryscale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vccolor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vccoor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcdatagrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcdatapoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcdatapointlabel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcdatapoints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcfill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcfont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcfootnote.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcframe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcintersection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclabel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclabels.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclcoor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclegend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclightsource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclightsources.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclocation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcmarker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcpen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcplot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcplotbase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcrect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcseriescollection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcseriesmarker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcseriesposition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcshadow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcstatline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vctextlayout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vctick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vctitle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcvaluescale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcview3d.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcwall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcweighting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MSChartTest.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

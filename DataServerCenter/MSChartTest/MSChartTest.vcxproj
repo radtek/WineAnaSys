@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3798BBEA-B151-4C8F-B5F7-83AE16D66146}</ProjectGuid>
+    <RootNamespace>MSChartTest</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\MSChartTest.ico" />
+    <None Include="res\MSChartTest.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="font.h" />
+    <ClInclude Include="mschart.h" />
+    <ClInclude Include="MSChartTest.h" />
+    <ClInclude Include="MSChartTestDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="vcaxis.h" />
+    <ClInclude Include="vcaxisgrid.h" />
+    <ClInclude Include="vcaxisscale.h" />
+    <ClInclude Include="vcaxistitle.h" />
+    <ClInclude Include="vcbackdrop.h" />
+    <ClInclude Include="vcbrush.h" />
+    <ClInclude Include="vccategoryscale.h" />
+    <ClInclude Include="vccolor.h" />
+    <ClInclude Include="vccoor.h" />
+    <ClInclude Include="vcdatagrid.h" />
+    <ClInclude Include="vcdatapoint.h" />
+    <ClInclude Include="vcdatapointlabel.h" />
+    <ClInclude Include="vcdatapoints.h" />
+    <ClInclude Include="vcfill.h" />
+    <ClInclude Include="vcfont.h" />
+    <ClInclude Include="vcfootnote.h" />
+    <ClInclude Include="vcframe.h" />
+    <ClInclude Include="vcintersection.h" />
+    <ClInclude Include="vclabel.h" />
+    <ClInclude Include="vclabels.h" />
+    <ClInclude Include="vclcoor.h" />
+    <ClInclude Include="vclegend.h" />
+    <ClInclude Include="vclight.h" />
+    <ClInclude Include="vclightsource.h" />
+    <ClInclude Include="vclightsources.h" />
+    <ClInclude Include="vclocation.h" />
+    <ClInclude Include="vcmarker.h" />
+    <ClInclude Include="vcpen.h" />
+    <ClInclude Include="vcplot.h" />
+    <ClInclude Include="vcplotbase.h" />
+    <ClInclude Include="vcrect.h" />
+    <ClInclude Include="vcseries.h" />
+    <ClInclude Include="vcseriescollection.h" />
+    <ClInclude Include="vcseriesmarker.h" />
+    <ClInclude Include="vcseriesposition.h" />
+    <ClInclude Include="vcshadow.h" />
+    <ClInclude Include="vcstatline.h" />
+    <ClInclude Include="vctextlayout.h" />
+    <ClInclude Include="vctick.h" />
+    <ClInclude Include="vctitle.h" />
+    <ClInclude Include="vcvaluescale.h" />
+    <ClInclude Include="vcview3d.h" />
+    <ClInclude Include="vcwall.h" />
+    <ClInclude Include="vcweighting.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="mschart.cpp" />
+    <ClCompile Include="MSChartTest.cpp" />
+    <ClCompile Include="MSChartTestDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="vcaxis.cpp" />
+    <ClCompile Include="vcaxisgrid.cpp" />
+    <ClCompile Include="vcaxisscale.cpp" />
+    <ClCompile Include="vcaxistitle.cpp" />
+    <ClCompile Include="vcbackdrop.cpp" />
+    <ClCompile Include="vcbrush.cpp" />
+    <ClCompile Include="vccategoryscale.cpp" />
+    <ClCompile Include="vccolor.cpp" />
+    <ClCompile Include="vccoor.cpp" />
+    <ClCompile Include="vcdatagrid.cpp" />
+    <ClCompile Include="vcdatapoint.cpp" />
+    <ClCompile Include="vcdatapointlabel.cpp" />
+    <ClCompile Include="vcdatapoints.cpp" />
+    <ClCompile Include="vcfill.cpp" />
+    <ClCompile Include="vcfont.cpp" />
+    <ClCompile Include="vcfootnote.cpp" />
+    <ClCompile Include="vcframe.cpp" />
+    <ClCompile Include="vcintersection.cpp" />
+    <ClCompile Include="vclabel.cpp" />
+    <ClCompile Include="vclabels.cpp" />
+    <ClCompile Include="vclcoor.cpp" />
+    <ClCompile Include="vclegend.cpp" />
+    <ClCompile Include="vclight.cpp" />
+    <ClCompile Include="vclightsource.cpp" />
+    <ClCompile Include="vclightsources.cpp" />
+    <ClCompile Include="vclocation.cpp" />
+    <ClCompile Include="vcmarker.cpp" />
+    <ClCompile Include="vcpen.cpp" />
+    <ClCompile Include="vcplot.cpp" />
+    <ClCompile Include="vcplotbase.cpp" />
+    <ClCompile Include="vcrect.cpp" />
+    <ClCompile Include="vcseries.cpp" />
+    <ClCompile Include="vcseriescollection.cpp" />
+    <ClCompile Include="vcseriesmarker.cpp" />
+    <ClCompile Include="vcseriesposition.cpp" />
+    <ClCompile Include="vcshadow.cpp" />
+    <ClCompile Include="vcstatline.cpp" />
+    <ClCompile Include="vctextlayout.cpp" />
+    <ClCompile Include="vctick.cpp" />
+    <ClCompile Include="vctitle.cpp" />
+    <ClCompile Include="vcvaluescale.cpp" />
+    <ClCompile Include="vcview3d.cpp" />
+    <ClCompile Include="vcwall.cpp" />
+    <ClCompile Include="vcweighting.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MSChartTest.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="MSChartTest.rc" _x007B_3A2B370C-BA0A-11D1-B137-0000F8753F5D_x007D_="CDMSChart" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

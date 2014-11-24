@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CDC47536-117C-4D92-8E37-9D894CB9A532}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\openssl-1.0.1h-deployment\include</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\openssl-1.0.1h-deployment\lib;SkinPPWTL.lib;</LibraryPath>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\buttons.bmp" />
+    <None Include="res\Client.ico" />
+    <None Include="res\Client.rc2" />
+    <None Include="res\ClientDoc.ico" />
+    <None Include="res\filelarge.bmp" />
+    <None Include="res\filesmall.bmp" />
+    <None Include="res\main.bmp" />
+    <None Include="res\main.ico" />
+    <None Include="res\next.ico" />
+    <None Include="res\plot.ico" />
+    <None Include="res\prev.ico" />
+    <None Include="res\ribbon.mfcribbon-ms" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\writelarge.bmp" />
+    <None Include="res\writesmall.bmp" />
+    <None Include="res\华科.bmp" />
+    <None Include="res\吸光度.ico" />
+    <None Include="res\基线校正.ico" />
+    <None Include="res\差谱.ico" />
+    <None Include="res\放大.cur" />
+    <None Include="res\放大.ico" />
+    <None Include="res\标注.cur" />
+    <None Include="res\标注.ico" />
+    <None Include="res\移动.cur" />
+    <None Include="res\移动.ico" />
+    <None Include="res\缩小.cur" />
+    <None Include="res\缩小.ico" />
+    <None Include="res\选择.ico" />
+    <None Include="res\透过率.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddSpecToAnaInfo.h" />
+    <ClInclude Include="AlcoholTypeIndex.h" />
+    <ClInclude Include="AnalasisDlg.h" />
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="BrandTypeIndex.h" />
+    <ClInclude Include="BtnST.h" />
+    <ClInclude Include="CApplication.h" />
+    <ClInclude Include="CeXDib.h" />
+    <ClInclude Include="CFont0.h" />
+    <ClInclude Include="Chart.h" />
+    <ClInclude Include="CHeaderCtrlEx.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="ClientDoc.h" />
+    <ClInclude Include="ClientView.h" />
+    <ClInclude Include="CListCtrlEx.h" />
+    <ClInclude Include="ClusterAnalysis.h" />
+    <ClInclude Include="ClusterChart.h" />
+    <ClInclude Include="ClusterDlg.h" />
+    <ClInclude Include="ClusterSettingDlg.h" />
+    <ClInclude Include="ComponentPredictModel.h" />
+    <ClInclude Include="CRange.h" />
+    <ClInclude Include="CSVOperator.h" />
+    <ClInclude Include="CurveObj.h" />
+    <ClInclude Include="CWorkbook.h" />
+    <ClInclude Include="CWorkbooks.h" />
+    <ClInclude Include="CWorksheet.h" />
+    <ClInclude Include="CWorksheets.h" />
+    <ClInclude Include="DataPoint.h" />
+    <ClInclude Include="DiffSettingDlg.h" />
+    <ClInclude Include="ExcelOperator.h" />
+    <ClInclude Include="FakeWineLib.h" />
+    <ClInclude Include="FlavourTypeIndex.h" />
+    <ClInclude Include="font.h" />
+    <ClInclude Include="ImplementFunc.h" />
+    <ClInclude Include="ImportProjectDataProgressDlg.h" />
+    <ClInclude Include="LoginingDlg.h" />
+    <ClInclude Include="MainComponentsAnaDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="mschart.h" />
+    <ClInclude Include="PCAChart.h" />
+    <ClInclude Include="PCADlg.h" />
+    <ClInclude Include="PCAResettingDlg.h" />
+    <ClInclude Include="PCASettingDlg.h" />
+    <ClInclude Include="PrintFrame.h" />
+    <ClInclude Include="PrintPreviewView.h" />
+    <ClInclude Include="PrintView.h" />
+    <ClInclude Include="ProjectInfoConfirmDlg.h" />
+    <ClInclude Include="ProjectInfoWriteDlg.h" />
+    <ClInclude Include="ProjectSendProgressDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SelectSpecFromFakeLibDlg.h" />
+    <ClInclude Include="SelectSpecFromLibDlg.h" />
+    <ClInclude Include="SelectSpecFromLibSheet.h" />
+    <ClInclude Include="SelectSpecFromTrueLibDlg.h" />
+    <ClInclude Include="ShadeButtonST.h" />
+    <ClInclude Include="shockwaveflash.h" />
+    <ClInclude Include="ShowInfoDlg.h" />
+    <ClInclude Include="SkinPPWTL.h" />
+    <ClInclude Include="SmoothSettingDlg.h" />
+    <ClInclude Include="SpecPretrSettingDlg.h" />
+    <ClInclude Include="SpectrumCompareDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StringParser.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TrueWineLib.h" />
+    <ClInclude Include="unzip.h" />
+    <ClInclude Include="UserLoginDlg.h" />
+    <ClInclude Include="UserManage.h" />
+    <ClInclude Include="vcaxis.h" />
+    <ClInclude Include="vcaxisgrid.h" />
+    <ClInclude Include="vcaxisscale.h" />
+    <ClInclude Include="vcaxistitle.h" />
+    <ClInclude Include="vcbackdrop.h" />
+    <ClInclude Include="vcbrush.h" />
+    <ClInclude Include="vccategoryscale.h" />
+    <ClInclude Include="vccolor.h" />
+    <ClInclude Include="vccoor.h" />
+    <ClInclude Include="vcdatagrid.h" />
+    <ClInclude Include="vcdatapoint.h" />
+    <ClInclude Include="vcdatapointlabel.h" />
+    <ClInclude Include="vcdatapoints.h" />
+    <ClInclude Include="vcfill.h" />
+    <ClInclude Include="vcfont.h" />
+    <ClInclude Include="vcfootnote.h" />
+    <ClInclude Include="vcframe.h" />
+    <ClInclude Include="vcintersection.h" />
+    <ClInclude Include="vclabel.h" />
+    <ClInclude Include="vclabels.h" />
+    <ClInclude Include="vclcoor.h" />
+    <ClInclude Include="vclegend.h" />
+    <ClInclude Include="vclight.h" />
+    <ClInclude Include="vclightsource.h" />
+    <ClInclude Include="vclightsources.h" />
+    <ClInclude Include="vclocation.h" />
+    <ClInclude Include="vcmarker.h" />
+    <ClInclude Include="vcpen.h" />
+    <ClInclude Include="vcplot.h" />
+    <ClInclude Include="vcplotbase.h" />
+    <ClInclude Include="vcrect.h" />
+    <ClInclude Include="vcseries.h" />
+    <ClInclude Include="vcseriescollection.h" />
+    <ClInclude Include="vcseriesmarker.h" />
+    <ClInclude Include="vcseriesposition.h" />
+    <ClInclude Include="vcshadow.h" />
+    <ClInclude Include="vcstatline.h" />
+    <ClInclude Include="vctextlayout.h" />
+    <ClInclude Include="vctick.h" />
+    <ClInclude Include="vctitle.h" />
+    <ClInclude Include="vcvaluescale.h" />
+    <ClInclude Include="vcview3d.h" />
+    <ClInclude Include="vcwall.h" />
+    <ClInclude Include="vcweighting.h" />
+    <ClInclude Include="WaveletAnalasis.h" />
+    <ClInclude Include="WdenSettingDlg.h" />
+    <ClInclude Include="WineTypeIndex.h" />
+    <ClInclude Include="zip.h" />
+    <ClInclude Include="ZipImplement.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddSpecToAnaInfo.cpp" />
+    <ClCompile Include="AlcoholTypeIndex.cpp" />
+    <ClCompile Include="AnalasisDlg.cpp" />
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="BrandTypeIndex.cpp" />
+    <ClCompile Include="BtnST.cpp" />
+    <ClCompile Include="CeXDib.cpp" />
+    <ClCompile Include="Chart.cpp" />
+    <ClCompile Include="CHeaderCtrlEx.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="ClientDoc.cpp" />
+    <ClCompile Include="ClientView.cpp" />
+    <ClCompile Include="CListCtrlEx.cpp" />
+    <ClCompile Include="ClusterAnalysis.cpp" />
+    <ClCompile Include="ClusterChart.cpp" />
+    <ClCompile Include="ClusterDlg.cpp" />
+    <ClCompile Include="ClusterSettingDlg.cpp" />
+    <ClCompile Include="ComponentPredictModel.cpp" />
+    <ClCompile Include="CSVOperator.cpp" />
+    <ClCompile Include="CurveObj.cpp" />
+    <ClCompile Include="DataPoint.cpp" />
+    <ClCompile Include="DiffSettingDlg.cpp" />
+    <ClCompile Include="ExcelOperator.cpp" />
+    <ClCompile Include="FakeWineLib.cpp" />
+    <ClCompile Include="FlavourTypeIndex.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="ImplementFunc.cpp" />
+    <ClCompile Include="ImportProjectDataProgressDlg.cpp" />
+    <ClCompile Include="LoginingDlg.cpp" />
+    <ClCompile Include="MainComponentsAnaDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="mschart.cpp" />
+    <ClCompile Include="PCAChart.cpp" />
+    <ClCompile Include="PCADlg.cpp" />
+    <ClCompile Include="PCAResettingDlg.cpp" />
+    <ClCompile Include="PCASettingDlg.cpp" />
+    <ClCompile Include="PrintFrame.cpp" />
+    <ClCompile Include="PrintPreviewView.cpp" />
+    <ClCompile Include="PrintView.cpp" />
+    <ClCompile Include="ProjectInfoConfirmDlg.cpp" />
+    <ClCompile Include="ProjectInfoWriteDlg.cpp" />
+    <ClCompile Include="ProjectSendProgressDlg.cpp" />
+    <ClCompile Include="SelectSpecFromFakeLibDlg.cpp" />
+    <ClCompile Include="SelectSpecFromLibDlg.cpp" />
+    <ClCompile Include="SelectSpecFromLibSheet.cpp" />
+    <ClCompile Include="SelectSpecFromTrueLibDlg.cpp" />
+    <ClCompile Include="ShadeButtonST.cpp" />
+    <ClCompile Include="shockwaveflash.cpp" />
+    <ClCompile Include="ShowInfoDlg.cpp" />
+    <ClCompile Include="SmoothSettingDlg.cpp" />
+    <ClCompile Include="SpecPretrSettingDlg.cpp" />
+    <ClCompile Include="SpectrumCompareDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TrueWineLib.cpp" />
+    <ClCompile Include="unzip.cpp" />
+    <ClCompile Include="UserLoginDlg.cpp" />
+    <ClCompile Include="UserManage.cpp" />
+    <ClCompile Include="vcaxis.cpp" />
+    <ClCompile Include="vcaxisgrid.cpp" />
+    <ClCompile Include="vcaxisscale.cpp" />
+    <ClCompile Include="vcaxistitle.cpp" />
+    <ClCompile Include="vcbackdrop.cpp" />
+    <ClCompile Include="vcbrush.cpp" />
+    <ClCompile Include="vccategoryscale.cpp" />
+    <ClCompile Include="vccolor.cpp" />
+    <ClCompile Include="vccoor.cpp" />
+    <ClCompile Include="vcdatagrid.cpp" />
+    <ClCompile Include="vcdatapoint.cpp" />
+    <ClCompile Include="vcdatapointlabel.cpp" />
+    <ClCompile Include="vcdatapoints.cpp" />
+    <ClCompile Include="vcfill.cpp" />
+    <ClCompile Include="vcfont.cpp" />
+    <ClCompile Include="vcfootnote.cpp" />
+    <ClCompile Include="vcframe.cpp" />
+    <ClCompile Include="vcintersection.cpp" />
+    <ClCompile Include="vclabel.cpp" />
+    <ClCompile Include="vclabels.cpp" />
+    <ClCompile Include="vclcoor.cpp" />
+    <ClCompile Include="vclegend.cpp" />
+    <ClCompile Include="vclight.cpp" />
+    <ClCompile Include="vclightsource.cpp" />
+    <ClCompile Include="vclightsources.cpp" />
+    <ClCompile Include="vclocation.cpp" />
+    <ClCompile Include="vcmarker.cpp" />
+    <ClCompile Include="vcpen.cpp" />
+    <ClCompile Include="vcplot.cpp" />
+    <ClCompile Include="vcplotbase.cpp" />
+    <ClCompile Include="vcrect.cpp" />
+    <ClCompile Include="vcseries.cpp" />
+    <ClCompile Include="vcseriescollection.cpp" />
+    <ClCompile Include="vcseriesmarker.cpp" />
+    <ClCompile Include="vcseriesposition.cpp" />
+    <ClCompile Include="vcshadow.cpp" />
+    <ClCompile Include="vcstatline.cpp" />
+    <ClCompile Include="vctextlayout.cpp" />
+    <ClCompile Include="vctick.cpp" />
+    <ClCompile Include="vctitle.cpp" />
+    <ClCompile Include="vcvaluescale.cpp" />
+    <ClCompile Include="vcview3d.cpp" />
+    <ClCompile Include="vcwall.cpp" />
+    <ClCompile Include="vcweighting.cpp" />
+    <ClCompile Include="WaveletAnalasis.cpp" />
+    <ClCompile Include="WdenSettingDlg.cpp" />
+    <ClCompile Include="WineTypeIndex.cpp" />
+    <ClCompile Include="zip.cpp" />
+    <ClCompile Include="ZipImplement.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="sqlite3.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Client.rc" _x007B_B6C10489-FB89-11D4-93C9-006008A7EED4_x007D_="CTChart" _x007B_D27CDB6E-AE6D-11CF-96B8-444553540000_x007D_="CShockwaveflash" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

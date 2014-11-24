@@ -1,0 +1,18 @@
+﻿生成启动时间为 2014/11/18 11:07:23。
+     1>项目“C:\Users\wth515812076\Documents\Visual Studio 2010\Projects\DataServerCenter\MSChartTest\MSChartTest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\MSChartTest.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MSChartTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MSChartTestDlg.cpp
+         MSChartTestDlg.cpp
+     1>c:\users\wth515812076\documents\visual studio 2010\projects\dataservercenter\mscharttest\mscharttestdlg.cpp(218): error C2027: 使用了未定义类型“CVcFont”
+                 c:\users\wth515812076\documents\visual studio 2010\projects\dataservercenter\mscharttest\vcdatapointlabel.h(15) : 参见“CVcFont”的声明
+     1>c:\users\wth515812076\documents\visual studio 2010\projects\dataservercenter\mscharttest\mscharttestdlg.cpp(218): error C2027: 使用了未定义类型“CVcFont”
+                 c:\users\wth515812076\documents\visual studio 2010\projects\dataservercenter\mscharttest\vcdatapointlabel.h(15) : 参见“CVcFont”的声明
+     1>c:\users\wth515812076\documents\visual studio 2010\projects\dataservercenter\mscharttest\mscharttestdlg.cpp(218): error C2228: “.SetName”的左边必须有类/结构/联合
+     1>已完成生成项目“C:\Users\wth515812076\Documents\Visual Studio 2010\Projects\DataServerCenter\MSChartTest\MSChartTest.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.55

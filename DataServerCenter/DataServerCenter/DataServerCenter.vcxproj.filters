@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\buttons.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DataServerCenter.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DataServerCenterDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DataServerCenter.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="C:\Users\wth515812076\Pictures\cloud.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BACKGROUND.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\华科.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\华科.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="user32.dll" />
+    <None Include="res\差谱.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\放大.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\基线校正.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\缩小.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\透过率.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\吸光度.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\选择.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\移动.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\选择.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\缩小.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\移动.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\移动.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\标注.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\标注.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\放大.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\缩小.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\plot.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="E:\演示平台\DataServerCenter\DataServerCenter\res\华科.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bluesky.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ffpic130516167749128.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DBBackup.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DBBackup.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\prev.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\next.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\check.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DBBackupAndRestore.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Wines1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\防伪中心.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\winePS1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\进入系统.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\winePS2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataServerCenter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataServerCenterDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataServerCenterView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CADXFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAspect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CXLSExport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SpectrumCompareDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbooks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFont0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcelOperator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSpecDatasetInfoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="unzip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipImplement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOperationHistory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AlcoholTypeIndex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalasisHistory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BrandTypeIndex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlavourTypeIndex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVOperator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddToLibDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pictures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PLS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WineTypeIndex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PLSModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUIDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Chart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectSpecFromLibDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManageDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManagePageTrue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManageSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManagePageFake.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CompleteSpecInfoAddToLibDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueWineLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PredictRecord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PredictedRecordDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecNoiseDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PCASettingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PCADlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PCAChart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PCAResettingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinePictures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CompleteSpecAddToFakeLibInfoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FakeWineLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClusterAnalysis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClusterChart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClusterDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveletAnalasis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecPretrSettingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffSettingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SmoothSettingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WdenSettingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClusterSettingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintPreviewView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManageDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputUserInfoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinPPWTL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BCMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CeXDib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadeButtonST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSmtp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportProjectDataProgressDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectSpecFromTrueLibDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectSpecFromFakeLibDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectSpecFromLibSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHeaderCtrlEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CListCtrlEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DBBackUpAndRestoreDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainComponentsAnaDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mschart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcaxis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcaxisgrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcaxisscale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcaxistitle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcbackdrop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcbrush.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vccategoryscale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vccolor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vccoor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcdatagrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcdatapoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcdatapointlabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcdatapoints.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcfill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcfont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcfootnote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcframe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcintersection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclabels.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclcoor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclegend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclightsource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclightsources.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vclocation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcmarker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcpen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcplot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcplotbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcrect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcseries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcseriescollection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcseriesmarker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcseriesposition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcshadow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcstatline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vctextlayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vctick.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vctitle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcvaluescale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcview3d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcwall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcweighting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateModelProgressDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentPredictModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcentrationTraceBackModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowInfoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataServerCenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataServerCenterDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataServerCenterView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SpectrumCompareDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelOperator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSpecDatasetInfoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipImplement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOperationHistory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AlcoholTypeIndex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalasisHistory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BrandTypeIndex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlavourTypeIndex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVOperator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddToLibDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pictures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PLS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WineTypeIndex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PLSModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUIDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Chart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSpecFromLibDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManageDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManagePageTrue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManageSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManagePageFake.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CompleteSpecInfoAddToLibDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueWineLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="unzip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PredictRecord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PredictedRecordDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecNoiseDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PCASettingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PCADlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PCAChart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PCAResettingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinePictures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CompleteSpecAddToFakeLibInfoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FakeWineLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClusterAnalysis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClusterChart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClusterDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveletAnalasis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecPretrSettingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffSettingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SmoothSettingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WdenSettingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClusterSettingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintPreviewView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManageDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BCMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CeXDib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadeButtonST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputUserInfoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSmtp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportProjectDataProgressDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSpecFromTrueLibDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSpecFromFakeLibDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSpecFromLibSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CHeaderCtrlEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CListCtrlEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DBBackUpAndRestoreDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainComponentsAnaDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mschart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcaxis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcaxisgrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcaxisscale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcaxistitle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcbackdrop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcbrush.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vccategoryscale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vccolor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vccoor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcdatagrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcdatapoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcdatapointlabel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcdatapoints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcfill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcfont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcfootnote.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcframe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcintersection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclabel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclabels.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclcoor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclegend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclightsource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclightsources.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vclocation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcmarker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcpen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcplot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcplotbase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcrect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcseries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcseriescollection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcseriesmarker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcseriesposition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcshadow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcstatline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vctextlayout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vctick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vctitle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcvaluescale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcview3d.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcwall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcweighting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateModelProgressDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentPredictModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcentrationTraceBackModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowInfoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DataServerCenter.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Program Files\Microsoft Visual Studio 10.0\VC\lib\ODBCCP32.LIB" />
+  </ItemGroup>
+</Project>
